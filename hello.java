@@ -1,5 +1,6 @@
-//for command line git tutorial
-//local repostioy modification
+//For command line git tutorial
+//First : GitHub modification 
+//Second : Local repostory modification
 public class hello{
 	public static void main(String[] args){
 		System.out.println("hello world");
