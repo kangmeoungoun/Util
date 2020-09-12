@@ -7,6 +7,7 @@ public class hello{
 		System.out.println("Tll yr World");
 		System.out.println("Tll your Wld");
 		System.out.println("Tell her World");
+		System.out.println("Tell my World");
 	}
 }
 
