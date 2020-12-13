@@ -1,0 +1,49 @@
+인텔리 제이 단축키
+ctrl+alt+v    = pjp.proceed() ->  Object proceed = pjp.proceed //블록 설정후
+alt+insert    = class 생성
+ctrl+shift+f7 = 같은단어 강조 //블록 설정후 ESC 해제
+ctrl + d      = 같은라인 추가
+ctrl + y      = 라인 삭제
+ctrl+alt+l    = 라인 정렬
+alt+enter     = 코드 오류일시 그라인 수정제안
+alt+1         = 탐색기 파일 로 커서이동
+esc           = 에디터로 커서 이동
+ctrl + e      = 최근 실행했던 파일을 확인할 수 있습니다.
+ctrl + b      = 코드안에서 다른 코드로 이동
+ctrl  + f7     = 어떤 항목이 사용된 위치를 검색
+ctrl+shift+enter = 자동완성 기능,ex) ;추가
+shift shift   = 모든파일검색
+Ctrl + Shift + N = 파일명으로 검색,이클립스 Ctrl + Shift + r 과 같은기능
+ctrl + b      = 부모 클래스로 이동
+ctrl + o      = 오버라이드 가능한 메소드 검색
+ctrl + shift +a = 검색
+ctrl + alt + m = 메소드 추출 ex)getServletContext().getAttribute("name") -> 메소드 형태로 만들어준다.
+ctrl + tab     = 화면전환
+alt + shift + enter = 코드 에러 수정
+ctrl + e       = 최근사용파일 검색
+ctrl + alt + f7 = 호출하는 메소드 보기
+f3  = 파인드 한것 다음으로 넘기기
+shift + f6      = 변수명 한번에 바꾸기
+shift + f9      = 디버그 run
+shift + f10     = application run
+alt   + insert  = getter,setter 만들기
+alt   + shift +위아래방향키 = 코드 라인 이동
+ctrl  + alt + v   = ex )result.hasErrors()  -> boolean b = result.hasErrors() 치환
+ctrl  + shift + t = 테스트테스트 클래스 파일 생성 
+shift + f6        = 파일 명 변경
+ctrl  + shift + m = 괄호 찾기
+esc               = 편집기로 커서 
+alt   + 1         = 프로젝트 폴더로 커서
+ctrl  + alt   + s = settings 팝업
+ctrl  + h         = 부모 자식 관계 표현
+ctrl  + p         = 파라미터 정보 표현
+ctrl  + alt + f7  = 변수 사용되고 있는것들 검색
+
+
+//스프링JPA 공식 레퍼런스 
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference
+//스프링 MVC 공식 레퍼런스
+https://docs.spring.io/spring-framework/docs/current/reference/html/web.html
+
+
+
