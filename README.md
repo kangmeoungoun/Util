@@ -1,1 +1,1 @@
-remote repository of git_tutorial
+#잡다한 정보 저장 공간
