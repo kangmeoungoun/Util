@@ -1,4 +1,4 @@
-인텔리 제이 단축키
+/*인텔리 제이 단축키*/
 ctrl+alt+v    = pjp.proceed() ->  Object proceed = pjp.proceed //블록 설정후
 alt+insert    = class 생성
 ctrl+shift+f7 = 같은단어 강조 //블록 설정후 ESC 해제
@@ -39,3 +39,13 @@ ctrl  + h         = 부모 자식 관계 표현
 ctrl  + p         = 파라미터 정보 표현
 ctrl  + alt + f7  = 변수 사용되고 있는것들 검색
 
+
+/*디비버 단축키*/
+CTRL+SHIFT+E    = 현재 쿼리 실행 계획 설명
+ALT+Up ALT+Down = 이전 / 다음 쿼리로 이동 (방향키)
+CTRL+SHIFT+X CTRL+SHIFT+Y = 선택한 텍스트를 대문자 / 소문자로 변환
+CTRL+SHIFT+C    = 그리드 선택후 열 컬럼 까지 같이 복사
+CTRL+SHIFT+V    = 그리드 선택후 열 컬럼 까지 같이 붙여넣
+CTRL+]        = 새 SQL 편집기 열기
+CTRL+K        = 다음 찾기
+CTRL+SHIFT+K  = 이전 찾기
