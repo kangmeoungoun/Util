@@ -2,3 +2,4 @@
 
 ### Shortcut.txt   : 프로그램 단축키 정보
 ### usefulSite.txt : 유용한 웹사이트 정보
+### term.txt       : 컴퓨터 용어 
