@@ -49,3 +49,7 @@ CTRL+SHIFT+V    = 그리드 선택후 열 컬럼 까지 같이 붙여넣
 CTRL+]        = 새 SQL 편집기 열기
 CTRL+K        = 다음 찾기
 CTRL+SHIFT+K  = 이전 찾기
+
+/*윈도우 단축키*/
+윈도우+SHIFT+S  = 캡처
+윈도우+;        = 이모지
