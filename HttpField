@@ -1,0 +1,31 @@
+Referrer Policy:웹에서 돌아다닐때, 이전방문 페이지에 대 정책
+  - unsafe-url : referer의 기본 값은 'unsafe-url' 이다. 
+                 https://hi098123.tistory.com/152 에서 https://www.google.com 으로 갈때 
+                 https://hi098123.tistory.com/152 를 google.com으로 전송한다.
+  - origin     : 도메인만 전송한다.
+                 https://hi098123.tistory.com/152 에서 https://www.google.com 으로 갈때
+                 https://hi098123.tistory.com/  를 google.com으로 전송한다.
+  - strict-origin : 대상 주소가 https일때만 도메인만 전송한다.
+                    https://hi098123.tistory.com/152 에서 https://www.google.com 으로 갈때
+                    https://hi098123.tistory.com/ 를 google.com으로 전송한다
+                    https://hi098123.tistory.com/152 에서 http://www.google.com 으로 갈때
+                    Referrer값은 google.com으로 전송하지 않는다.
+ - no-referrer-when-downgrade : (HTTPS) 지원을 하지 않는 출처에 대해서는 Referer 헤더를 전송하지 않습니다.
+ - same-origin   :  대상 주소가 같을때만 전송한다.
+                    https://hi098123.tistory.com/152 에서 https://hi098123.tistory.com/45 으로 갈때
+                    https://hi098123.tistory.com/152 를 hi098123.tistory.com으로 전송한다
+                    https://hi098123.tistory.com/152 에서 https://www.google.com 으로 갈때
+                    Referrer값은 google.com으로 전송하지 않는다.
+ - origin-when-cross-origin : 대상 주소에 따라 전송한다.
+                              https://hi098123.tistory.com/152 에서 https://hi098123.tistory.com/45 으로 갈때
+                              https://hi098123.tistory.com/152 를 hi098123.tistory.com으로 전송한다
+                              https://hi098123.tistory.com/152 에서 https://www.google.com 으로 갈때
+                              https://hi098123.tistory.com/를  google.com으로 전송한다.
+ - strict-origin-when-cross-origin : 대상 주소와 https여부에 따라 전송한다.
+                                     https://hi098123.tistory.com/152 에서 https://hi098123.tistory.com/45 으로 갈때
+                                     https://hi098123.tistory.com/152 를 hi098123.tistory.com으로 전송한다
+                                     https://hi098123.tistory.com/152 에서 https://www.google.com 으로 갈때
+                                     https://hi098123.tistory.com/를  google.com으로 전송한다.
+                                     https://hi098123.tistory.com/152 에서 http://www.google.com 으로 갈때
+                                     Referrer값은 google.com으로 전송하지 않는다.
+
