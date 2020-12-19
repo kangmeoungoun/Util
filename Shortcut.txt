@@ -40,6 +40,7 @@ ctrl  + p         = 파라미터 정보 표현
 ctrl  + alt + f7  = 변수 사용되고 있는것들 검색
 alt   + f7        =  어떤 항목이 사용된 위치를 검색
 ctrl  + alt + l   =  라인 정렬
+ctrl  + shift +v  = 
 
 /*디비버 단축키*/
 CTRL+SHIFT+E    = 현재 쿼리 실행 계획 설명
