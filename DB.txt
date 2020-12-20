@@ -1,0 +1,14 @@
+SQL Server에서의 트랜잭션은 기본적으로 3가지 방식으로 이루어진다.
+
+1)AUTO COMMIT
+SQL Server의 기본 방식이며, DML,DDL 을 수행할 때마다 DBMS 가 트랜잭션을 컨트롤 하는 방식이다.
+명령어가 성공적으로 수행되면 자동으로 COMMIT을 수행하고 오류가 발생하면 자동으로 ROLLBACK을 수행한다.
+
+2)암시적 트랜잭션
+Oracle 과 강은 방식으로 처리된다.
+즉, 트랜잭션의 시작은 DBMS 가 처리하고 트랜잭션의 끝은 사용자가 명시적으로 COMMIT 또는 ROLLBACK으로 처리한다.
+
+3)명시적 트랜잭션 
+트랜잭션의 시작과 끝을 모두 사용자가 명시적으로 지정하는 방식이다.
+BEGIN TRANSACTION (BEGIN TRAN 구문도 가능) 으로 트랜잭션을 시작하고 
+COMMIT TRANSACTION(TRANSACTION은 생략 가능) 또는 ROLLBACK TRANSACTION(TRANSACTION은 생략 가능)으로 트랜잭션을 종료한다.
