@@ -42,6 +42,9 @@ alt   + f7        =  어떤 항목이 사용된 위치를 검색
 ctrl  + alt + l   =  라인 정렬
 ctrl  + shift +v  = 클립보드
 ctrl  + shift + f12 = 대쉬보드 최소화
+F2                  = 오류 코드 이동
+ctrl  + w           = 블록 설정 범위점점 넓게
+ctrl  + shift + w   = 블록 설정 범위점점 좁게
 
 /*디비버 단축키*/
 CTRL+SHIFT+E    = 현재 쿼리 실행 계획 설명
