@@ -1,0 +1,11 @@
+find . -name *.c |xargs grep 'c'          // hello.c 파일 
+
+/* This C source can be compiled with:                                          
+   tcc -o hello hello.c                                                         
+   gcc -o hello hello.c                                                         
+#include <stdlib.h>                                                             
+#include <stdio.h>                                                              
+int main(int argc, char **argv)
+
+find . -name *.c | grep 'c'                                    
+./hello.c                                                                       
