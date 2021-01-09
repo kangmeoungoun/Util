@@ -47,6 +47,7 @@ ctrl  + w           = 블록 설정 범위점점 넓게
 ctrl  + shift + w   = 블록 설정 범위점점 좁게
 ctrl  + alt + n     = 인라인 설정(한줄로 만들어버림 변수사용)
 iter 작성후  tab           = foreach 문 완성
+soutv               = 변수 System.out.println 출력
 
 
 /*디비버 단축키*/
