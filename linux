@@ -1,11 +1,2 @@
-find . -name *.c |xargs grep 'c'          // hello.c 파일 
-
-/* This C source can be compiled with:                                          
-   tcc -o hello hello.c                                                         
-   gcc -o hello hello.c                                                         
-#include <stdlib.h>                                                             
-#include <stdio.h>                                                              
-int main(int argc, char **argv)
-
-find . -name *.c | grep 'c'                                    
-./hello.c                                                                       
+//RAEDME.md 파일 내용 읽어서 첫번째줄만 나오게 한뒤 마지막 문자 제거 
+find . -name README.md |xargs cat| grep '!' | head -1 | awk '{split($0,arr,"("); print arr[2]}' | sed 's/.$//'
