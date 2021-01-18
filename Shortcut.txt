@@ -50,7 +50,8 @@ iter 작성후  tab           = foreach 문 완성
 soutv               = 변수 System.out.println 출력
 ctrl + f12          = 해당클래스의 메소드 정보 팝업
 ctrl + d            = 파일 두개 선택후 파일비
-ctrl + alt + b      = 필드 또는 파라미터 인터페이스 일시 구현체 보여준다. 
+ctrl + alt + b      = 필드 또는 파라미터 인터페이스 일시 구현체 보여준다.
+ctrl + q            = 변수 클릭후 javadoc 
 
 
 /*디비버 단축키*/
