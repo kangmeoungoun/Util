@@ -1,5 +1,10 @@
-#  잡다한 정보 저장 공간
+```java
+  String a = "select count(%s) from %s x";
+        String x = String.format(a , "x" , "%s");
+        System.out.println("x = " + x);
+        //x = select count(x) from %s x
+        String member = String.format(x , "member");
+        System.out.println("member = " + member);
+        //member = select count(x) from member 
 
-### Shortcut.txt   : 프로그램 단축키 정보
-### usefulSite.txt : 유용한 웹사이트 정보
-### term.txt       : 컴퓨터 용어 
+```
