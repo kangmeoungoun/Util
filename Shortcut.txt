@@ -53,6 +53,7 @@ ctrl + d            = 파일 두개 선택후 파일비
 ctrl + alt + b      = 필드 또는 파라미터 인터페이스 일시 구현체 보여준다.
 ctrl + q            = 변수 클릭후 javadoc 
 ctrl + alt + 0      =  자동 import
+ctrl + alt + shift + u = 
 
 /*디비버 단축키*/
 CTRL+SHIFT+E    = 현재 쿼리 실행 계획 설명
