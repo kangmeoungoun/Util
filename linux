@@ -1,2 +1,11 @@
 //RAEDME.md 파일 내용 읽어서 첫번째줄만 나오게 한뒤 마지막 문자 제거 
 find . -name README.md |xargs cat| grep '!' | head -1 | awk '{split($0,arr,"("); print arr[2]}' | sed 's/.$//'
+
+//IP 보기
+ip ad sh | grep inet
+
+//호스트네임
+hostname
+
+// 이전 디렉토리 로 이동
+cd -
