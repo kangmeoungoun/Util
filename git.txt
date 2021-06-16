@@ -1,0 +1,60 @@
+git cloen https://github.com/goldIsApple/Util.git . 원격저장소 내려받기
+
+git status //커밋 할수 있는 파일 내역 보여준다.
+
+git add test.txt
+git commit -m "message"
+
+git commit -am "message" //add 도 같이 commit
+
+git commit --ammend  "message" //커밋 한개를 덜해서 커밋 생성 안하고 추가만 하고 싶을떄
+
+
+git push -u origin master //origin 서버에 마스터 브랜치에 커밋
+
+
+git log --all --oneline --graph //한줄라인으로 그래프 형식으로 로그 보기
+git log --all --oneline --graph --stat//파일 명 까지 보여준다.
+
+git merge branch //마스터 브랜치에서 할시 마스터 브랜치 랑 branch 랑 머지
+
+git stash  //커밋하지 않은 상태에서 다른것들 수정하고 싶을떄 보관함에 잠깐 저장
+git stash list //stash 리스트 보기
+git stash apply [stash이름] 다시 보관함에서 꺼내서 적용
+git stash drop //stash 삭제 보관함에서 꺼내서 적용 을해도 리스트에는 남아 있어서 삭제 필요
+
+git reset --hard [커밋번호] //해당 커밋으로 전부 변경된다.
+git reset --mixed [커밋번호] //해당 커밋으로 변경되지만 작업했던 내용은 변하지 않는다.
+
+git reset // 히스토리가 삭제된다.
+git revert // revert 하는 commit 를 만들면서 되돌린다.
+
+git push -f //push 된 이전 커밋 으로 reset 했을때 push 안될때 강제로 push
+
+git rebase master // branch 에서 fast forward 상황이 아닐떄 사용하자
+				// 마스터 에서브랜치 딴 시점에서 마스터가 급한일이 생겨 커밋을 했을때 이전 브랜치 도 이제 다 끝나고 커밋 할상황
+				//그럼 급한일 이 있는 커밋 까지 땡기고 커밋을 한다.
+				// 해당 브랜치에 들어와서 한다.
+				// commit 내역이 예쁘게 쌓인다.
+				// rebase 말고 merge 를 할경우 쓸데없는 커밋이 하나 더 생긴다.
+				
+git reset 되돌릭 커밋번호 // commit1 에 파일1 추가 commit2 에 파일 2추가 
+						//근데 파일 1이 필요 없는 상활일때 
+						//히스토리를 지우면 안되는 상활일떄
+						//커밋을 한개 더쌓으면서 이전상태로 되돌린다.
+
+
+git cherry-pick 커밋번호 //branch1 에서 버그수정 커밋 ,기능추가1 커밋 두개 상황
+					  // 그후 마스터에서 기능추가2 커밋
+					  // 마스터 브랜치에 기능추가1 은 추가 안하고 싶을때 머지를 안하는 상황에서
+					  // 버그수정만 꼭 가져오고 싶을때 사용 그 버그수정커밋번호가 들어간다.
+					  // 마스터에 커밋이 한개더 생긴다.
+					   
+					  
+ 
+					  
+					 
+				
+				
+				
+
