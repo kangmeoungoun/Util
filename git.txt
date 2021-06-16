@@ -51,6 +51,11 @@ git cherry-pick 커밋번호 //branch1 에서 버그수정 커밋 ,기능추가1
 					  // 마스터에 커밋이 한개더 생긴다.
 					   
 					  
+ git diff HEAD // 현재 버전좌 최신커밋 비교
+ 
+ git diff 브랜치 브랜치 
+ git diff 커밋번호 커밋번호 
+ 
  
 					  
 					 
