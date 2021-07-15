@@ -1,0 +1,25 @@
+인텔리제이 단축키
+
+control + , = 인텔리제이 환경설정
+control + ; = 프로젝트 환경설정
+
+control + 옵션 + v  = 변수 추출
+
+윈도우 + fn + f3 = 북마크
+alt + 1 = 1로 북마크 이동
+ctrl + f3 = 모든 북마크 설정된 곳 보기
+
+control + shift + fn + f12 = max editor toggle
+
+control + n  =  getter ,setter  단축키 ,또는 파일 만들기
+
+윈도우 + shift 방향키 = 단위별로 블럭 지장
+
+control + g = 검색후 다음꺼 검색
+
+alt + m     = 괄호 이동
+
+window + enter = quick 제안
+
+ctrl         윈도우    alt 
+ㅁcommand    --option   ^control
